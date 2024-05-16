@@ -1,7 +1,7 @@
 # Pedra, Papel ou Tesoura
 
 <h2>:bookmark_tabs: Sobre</h2>
-<p>Está com tédio? Tenho a solução: Criei um jogo de pedra, papel e tesoura! Usando lógica de progamação.</p>
+<p>Está com tédio? Tenho a solução: Criei um jogo de pedra, papel ou tesoura! Usando lógica de progamação.</p>
 
 <h2>Tecnologias:</h2>
 
