@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no"
+    />
+    <meta name="author" conte1nt="Jefferson" />
+    <meta name="copyright" content="© 2024 Jefferson Alves" />
+    <title>Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="assents/style.css" />
+    <link
+      rel="shortcut icon"
+      href="assents/img/rock-paper-scissors.png"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <!--Conteúdo Principal-->
+    <main class="container">
+      <!--Título e Subtítulo-->
+      <section class="titulo_sub">
+        <h1>Pedra, Papel ou Tesoura</h1>
+        <h2 id="frase">Escolha uma opção:</h2>
+      </section>
+
+      <!--Seção de Escolha-->
+      <section id="area-escolha">
+        <img
+          onclick="select(0)"
+          id="pedra"
+          src="assents/img/pedra.png"
+          alt="Pedra"
+          title="Pedra"
+        />
+        <img
+          onclick="select(1)"
+          id="papel"
+          src="assents/img/papel.png"
+          alt="Papel"
+          title="Papel"
+        />
+        <img
+          onclick="select(2)"
+          id="tesoura"
+          src="assents/img/tesoura.png"
+          alt="Tesoura"
+          title="Tesoura"
+        />
+      </section>
+
+      <!--Seção de Resultado-->
+      <section id="area-resultado">
+        <div class="versus">
+          <img id="jogador" src="assents/img/pedra.png" alt="" />
+          <img id="maquina" src="assents/img/pc-pedra.png" alt="" />
+        </div>
+        <div class="btn-container">
+          <button onclick="location.reload()" id="btn-recomecar">
+            recomeçar
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <script src="assents/script.js"></script>
+  </body>
+</html>

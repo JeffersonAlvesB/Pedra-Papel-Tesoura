@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: black;
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2%;
+}
+
+.titulo_sub {
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-family: "Pixelify Sans";
+  font-size: 3rem;
+  margin-bottom: 2%;
+}
+
+h2 {
+  color: white;
+  font-family: "Pixelify Sans";
+  margin-bottom: 4%;
+}
+
+#area-escolha {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+#area-escolha img {
+  border: 1px solid white;
+  border-radius: 10%;
+  cursor: pointer;
+}
+
+#area-resultado {
+  display: none;
+}
+
+#area-resultado img {
+  border: 1px solid white;
+  border-radius: 10%;
+}
+
+.versus {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+#btn-recomecar {
+  display: none;
+  font-size: 1.5rem;
+  background-color: #04043a;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 500ms;
+  margin-top: 10%;
+}
+
+#btn-recomecar:hover {
+  background-color: white;
+  color: #04043a;
+}
